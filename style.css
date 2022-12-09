@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+/*Resta as pre-configs*/
+* {
+    margin: 0; /*Margem*/
+    padding: 0; /*Distancia com a tag*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #9255a1 16.68%, #cd9fe7 85.61%);
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img {
+    height: 130px;
+}
+
+
+.content{
+    margin-bottom: 48px;
+}
+
+
+.content-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+}
+
+.content-intro-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-intro-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+}
+
+.content-intro-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+}
+
+.content-intro-img {
+    height: 480px;
+}
+
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.content-info-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+}
+
+.content-info-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+}
+
+
+.content-membros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-membros-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-membros-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 16px;
+}
+
+.content-membros-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #000000;
+}
+
+.aranhas{
+    height: 300px;
+    padding-bottom: 35px;
+}
+
+
+.rodape{
+    padding: 32px;
+}
+
+.rodape-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 1000;
+    font-size: 24px;
+    color: #000000;
+}
